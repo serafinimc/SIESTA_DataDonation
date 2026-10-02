@@ -1,0 +1,62 @@
+[
+ {
+   "Id": 1,
+   "Gender": "M",
+   "Birthday (DD": {
+      "MM": {
+         "YYYY)": "27/10/1968"
+      }
+   },
+   "Age in March 2024": 55,
+   "Weight (kg)": 79,
+   "Year of T1D diagnosis": 2011
+},
+ {
+   "Id": 2,
+   "Gender": "F",
+   "Birthday (DD": {
+      "MM": {
+         "YYYY)": "24/5/1983"
+      }
+   },
+   "Age in March 2024": 41,
+   "Weight (kg)": 53,
+   "Year of T1D diagnosis": 1992
+},
+ {
+   "Id": 3,
+   "Gender": "F",
+   "Birthday (DD": {
+      "MM": {
+         "YYYY)": "14/5/1977"
+      }
+   },
+   "Age in March 2024": 47,
+   "Weight (kg)": 69,
+   "Year of T1D diagnosis": 1996
+},
+ {
+   "Id": 4,
+   "Gender": "F",
+   "Birthday (DD": {
+      "MM": {
+         "YYYY)": "17/7/1982"
+      }
+   },
+   "Age in March 2024": 42,
+   "Weight (kg)": 69,
+   "Year of T1D diagnosis": 1998
+},
+ {
+   "Id": 5,
+   "Gender": "M",
+   "Birthday (DD": {
+      "MM": {
+         "YYYY)": "9/8/1991"
+      }
+   },
+   "Age in March 2024": 33,
+   "Weight (kg)": 85,
+   "Year of T1D diagnosis": 1996
+}
+]
