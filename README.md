@@ -4,6 +4,9 @@ This project builds one consolidated DataDonation parquet from the raw project
 exports. `DataProcessing.ipynb` is the main notebook; support code and setup
 files live under `pipeline_support/` so the root stays focused on the main entry point.
 
+## CRITICAL
+Raw data files must be requested from cecilia.serafini@ing.unlp.edu.ar and added to the rawdata folder.
+
 ## First-time setup
 
 Create and activate a virtual environment from the repository root, then install
