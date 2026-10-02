@@ -1,0 +1,10 @@
+ipython
+ipykernel
+jupyter_client
+nbclient
+nbconvert
+nbformat
+numpy
+openpyxl
+pandas
+pyarrow
