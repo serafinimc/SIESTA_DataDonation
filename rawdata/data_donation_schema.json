@@ -41,7 +41,6 @@
   "string_columns": [
     "cgm_device",
     "misc_notes",
-    "date",
     "id",
     "insulin_delivery_algorithm",
     "insulin_delivery_device",
@@ -52,10 +51,13 @@
     "source_file",
     "workout_label",
     "treatment_group",
-    "randomization_date",
-    "extension_date",
     "gender",
     "ethnicity"
+  ],
+  "datetime_columns": [
+    "date",
+    "randomization_date",
+    "extension_date"
   ],
   "boolean_columns": [
     "is_pregnant",
