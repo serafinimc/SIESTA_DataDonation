@@ -49,7 +49,9 @@ def public_id(participant: str) -> str:
 
 def donation_schema(donation_columns: list[str], schema: dict[str, list[str]]) -> pa.Schema:
     """Create the exact Arrow schema expected by the donation table."""
-    string_columns = set(schema['string_columns'])
+    # Intermediate tables keep datetime columns as text; the final export casts
+    # them to timestamps after all joins are complete.
+    string_columns = set(schema['string_columns']) | set(schema.get('datetime_columns', []))
     boolean_columns = set(schema['boolean_columns'])
     fields = []
     for column in donation_columns:
@@ -69,7 +71,7 @@ def empty_donation_row(
     schema: dict[str, list[str]],
 ) -> dict[str, object]:
     """Create one donation-schema row with only CGM backbone fields populated."""
-    string_columns = set(schema['string_columns'])
+    string_columns = set(schema['string_columns']) | set(schema.get('datetime_columns', []))
     boolean_columns = set(schema['boolean_columns'])
     row: dict[str, object] = {}
     for column in donation_columns:
